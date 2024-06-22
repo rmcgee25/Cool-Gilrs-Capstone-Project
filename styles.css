@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: "Roboto Mono", monospace;
     background-color: #F0FFF1;
 }
@@ -31,29 +31,34 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #C2F8CB; 
+    color: black; 
     font-weight: bold;
 }
 
 main {
-    padding: 20px;
+    padding: 30px;
 }
 
-.welcome {
+.homepage {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: space-evenly;
     margin-top: 50px;
 }
 
-.welcome-text {
-    max-width: 50%;
+.home-text {
+    max-width: 60%;
+    border: 3px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
-.welcome-image img {
-    width: 400px;
+.home-image img{
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
+    margin-top: 10px; 
 }
 
 .learn-more {
@@ -66,53 +71,76 @@ main {
     border-radius: 5px;
 }
 
-.learn-more-button:hover {
-    background-color: #0056b3;
+.learn-more:hover {
+    background-color: white;
 }
 
 .aboutpage {
     display: flex;
-    justify-content: space-between;
-    margin: 50px 0;
+    justify-content: space-evenly;
+    margin: 50px 0px;
 }
 
-.our-story, .our-impact {
-    width: 45%;
+.ourstory, .ourimpact {
+    width: 40%;
+    border: 3px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px; 
+    border-radius: 5px;
 }
 
-.about-story img, .about-impact img {
-    width: 100%;
+.ourstory img, .ourimpact img {
+    max-width: 100%;
     height: auto;
+    display: block;
     border-radius: 10px;
     margin-top: 20px;
 }
 
-.about-story p, .about-impact p {
-    margin-top: 20px;
+
+.newsletter{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
 }
 
+.subbutton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #8367C7;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.subbutton:hover{
+    background-color: white;
+}
 
 html {
     height: 100%;
     width: 100%;
   }
-  
-  
-  .title{
+
+.title{
     text-align: center;
   
   }
   
-  .container{
-    display:flex;
-     justify-content: space-evenly
+  form{
+    border: black solid 1px;
+    
+  
   }
   
+  .sub-container{
+    text-align: center;
+  }
+  
+  h2
   
   .contact{
     text-align: center;
   }
   
-  .sub-container{
-   
-  }
